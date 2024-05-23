@@ -15,4 +15,8 @@ The **Snowy Christmas Items** website is designed to provide a seamless and enjo
 - **Contact Information**: Provides users with the store's address and contact number.
 - **Promotional Offer**: Highlights a special discount for orders over a certain amount.
 
+![Screenshot (394)](https://github.com/NipuniVithana/Christmas_Shop_Website/assets/99274261/2aab2d6e-eca0-46d4-aaf2-d391987214b7)
+
+![Screenshot (395)](https://github.com/NipuniVithana/Christmas_Shop_Website/assets/99274261/42e78f7d-82af-4657-b430-89371754c355)
+
 

@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: cursive;
+}
+.row{
+    height: 100px;
+    margin-top: 10px;
+    background-color: rgb(195, 127, 127);
+
+
+}
+.column {
+    float: left;
+    padding: 10px;
+    height: 100px; 
+  }
+  
+.left {
+    width: 25%;
+  }
+  
+.right {
+    width: 75%;
+   
+  }
+.logo{
+    margin-left:100px;
+    
+}
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .topic{
+    color:darkgreen;
+    margin:15px 0px 0px 100px;
+    
+  }
+  .home{
+    
+    min-height: 100vh;
+    background:url(images/image3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .content1{
+    margin-top:0px;
+    margin-left:120px
+ }
+ .wish{
+    font-size: 20px;
+    font-weight:bold;
+    
+ }
+ .btn{
+    display:inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: rgb(172, 46, 46);
+    color: #fff;
+    padding:.9rem 3.5rem;
+    cursor:pointer;
+    font-size:1.7rem;
+}
+.btn:hover{
+    background: darkgreen;
+}
+.products .box-container{
+    display:flex;
+    gap:1.5rem;
+}
+.products .box-container .box{
+    flex:1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border-radius:.5rem;
+    border:.1rem solid rgba(0,0,0,.1);
+    position: relative;
+    background: url(images/bg.jfif) no-repeat;
+    background-size:cover;
+
+}
+.products .box-container .box .item{
+    
+   
+    font-size:1.5rem;
+    color:darkgreen;
+    background-color: rgba(255, 51, 153, .05);
+    z-index: 1;
+    border-radius: .5rem;
+}
+.products .box-container .box .image{
+    position:relative;
+    text-align:center;
+    padding-top: 1rem;
+    overflow:hidden;
+}
+.products .box-container .box .image img{
+    height:10rem;
+}
+.products .box-container .box:hover .image img{
+    transform:scale(1.1);
+}
+.products .box-container .box .btn1{
+    display:inline-block;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    border-radius: 5rem;
+    background: rgb(172, 46, 46);
+    color: #fff;
+    padding:.9rem 3.5rem;
+    cursor:pointer;
+    font-size:1rem;
+   
+}
+
+.products .box-container .box .content{
+    padding: 1rem;
+    text-align:justify;
+}
+.products .box-container .box .content .price{
+    font-size:1rem;
+    color:darkgreen;
+    font-weight:bolder;
+    margin-left:6rem;
+    margin-top:1rem;
+}
+.row1{
+    height: 300px;
+    background-color: rgb(195, 127, 127);
+   
+}
+.column1 {
+    float: left;
+    
+  }
+  
+.left1 {
+    width: 25%;
+    
+    
+  }
+  
+.right1 {
+    width: 75%;
+   
+   
+  }
+  .contact{
+    margin-top:10px;
+    margin-left:40px;
+  }
+  .info{
+    margin-top:20px;
+    margin-left:40px;
+    color:darkgreen;
+  }
+  .bonus{
+    color:rgb(90, 23, 23);
+    font-size:30px;
+    margin-top:30px;
+    margin-left:50px;
+    
+    
+  }
+
+  
+ 
